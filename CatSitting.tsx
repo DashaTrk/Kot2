@@ -4,14 +4,14 @@ const CatSitting = () => (
     <path
       d="M28 68
          C20 62 14 52 14 42
-         C14 34 16 29 20 23
-         C16 9 18 0 24 -2
-         C30 -2 39 6 46 17
-         C49 16 52 16 55 16
-         C58 16 61 16 64 17
-         C70 6 79 -2 86 -2
-         C92 1 94 9 90 23
-         C94 29 96 34 96 42
+         C14 35 16 30 20 24
+         C18 14 20 8 24 6
+         C28 4 35 10 42 20
+         C47 18 51 17 55 17
+         C59 17 63 18 68 20
+         C75 10 82 4 86 6
+         C90 8 92 14 90 24
+         C94 30 96 35 96 42
          C96 52 90 62 82 68"
       stroke="currentColor"
       strokeWidth="2.8"
@@ -20,9 +20,9 @@ const CatSitting = () => (
     />
 
     {/* Left ear inner fold */}
-    <path d="M31 13 C33 15 35 17 36 19" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" fill="none" />
+    <path d="M27 21 C28 17 31 14 35 12" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" fill="none" />
     {/* Right ear inner fold */}
-    <path d="M79 13 C77 15 75 17 74 19" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" fill="none" />
+    <path d="M83 21 C82 17 79 14 75 12" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" fill="none" />
 
     {/* Eyes */}
     <circle cx="40" cy="46" r="6" fill="currentColor" />
